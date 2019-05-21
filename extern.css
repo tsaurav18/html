@@ -1,0 +1,97 @@
+body{position: relative;
+    height: 100%;
+   
+display:block;}
+.language{background-position: -50% 100%;
+	text-align:center;
+	margin-top:-80px;
+	margin-left:520px;}
+
+    #navertext{ background-position: -1px -485px;
+    	margin-top:-50px;
+    	margin-left:38%;}
+
+ a{text-decoration:none!important;color:black;}
+
+.id{display:inline;
+	background-position: -1px -485px;
+   position: relative;
+    height: 29px;
+    margin: 70px 25% 3% ;
+    padding: 10px 350px 10px 15px;
+    border: solid 1px #dadada;
+    background:white;
+    }
+    .pass{background-position: -1px -485px;
+   position: relative;
+    height: 29px;
+    margin: -20pt 25% 33% ;
+    padding: 10px 350px 10px 15px;
+    border: solid 1px #dadada;
+    background:white;}
+.button{  background-position: -1px -485px;
+position: relative;
+ display:block;
+    width: 43.2%;height: 61px;
+    margin: -30% 25% -19%;
+    padding-top: 1px; border: none;
+    border-radius: 0;
+    background-color: #1fbc02;line-height: 61px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff; 
+    font-size: 20px;
+    font-weight: 700;
+  
+}
+#loginstate{position:relative;
+	margin: 20% 25% -95px;
+	text-align:center;width:45%;}
+.table{position:relative;
+	margin: 10% 35% -220px; 
+	width:27%;}
+#caption{color:skyblue; 
+	font-weight:bolder;}
+#container{margin: 200px 25% -180px; 
+	width:44%;border: solid 1px #dce6ee;
+	text-align:center;
+	background-color:#e5edf3;
+	padding-top:20px;}
+h4{border:solid 1px #dce6ee;
+	margin-left:170px;
+	margin-right:150px; 
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color:white;
+	 width:180px;}
+#endcontainer{color:green;
+ font-weight:bolder;}
+
+   #footer ul li {
+    font-size: 15px;
+    margin-left:7%; 
+    display: inline;
+    padding: 0 5px 0px 7px;
+    width: 100%;
+   float:bottom	;
+    text-align: center;
+    
+
+    }
+    a:hover{color:green;}
+
+    #footer{margin-left:150px;
+    	margin-top:280px;
+    	width:65%;
+    	word-spacing: -2px;
+    	font-style:normal;}
+    .address{margin-left:390px;
+    	margin-top:600px; 
+    	color:black;
+       font-style:normal;}
+  .addr a{font-size:17px;
+  	font-weight:bolder;
+  	color:green;
+  	font-weight:900px;
+  	text-height:10px;
+  	font-size:20px;}	

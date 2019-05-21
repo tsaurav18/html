@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>naver</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="extern.css"/>
+
+  </head>
+  <body>
+    
+  <!--header-->
+  <div id="navertext">
+
+   <a href="http://www.naver.com" target="_blank" onclick="nclks('log.naver',this,event)">
+   <img src="./naverimage.png"></a>
+    </div>
+   
+<div class="language">
+    <select name="languages">
+    <option selected>한국어</option>
+    <option>English</option>
+    <option>chinese</option>
+  </select></div>
+
+
+     <!--form-->
+
+    <form action="/action_page.php" target="_blank" method="post" id="inputform">
+ 
+
+    <input class="id" type="text" name="id" placeholder="아이디" ><br>
+
+       <input class="pass" type="password" name="pass" placeholder="비밀번호" ><br>
+       
+      <input class="button" type="submit" value="로그인" width="20%"><br>
+      <div id=loginstate>
+      <input type="checkbox" name="loginselect" value="loginstate" id="login_state" title="개인정보 보호를 위해 개인 pc에서만 사용하세요"/>
+      <label for="login_state">로그인 상태 유지 </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://nid.naver.com/login/ext/help_ip3.html">IP보안</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://nid.naver.com/nidlogin.login?mode=number" title="일회용 로그인">일회용 로그인</a>
+     <hr>
+    </div>
+<!--signup table-->
+  
+        <table  class="table">
+         <tr>
+        <td><a href="https://nid.naver.com/mobile/user/global/idInquiry.nhn?lang=en_US" target="_blank" >아이디 찾기 &nbsp;|&nbsp;</a></td>
+      <td> <a href="https://nid.naver.com/mobile/user/global/pwInquiry.nhn?lang=en_US" target="_blank" >비밀번호 찾기&nbsp;|&nbsp;</a></td> 
+        <td><a href="https://nid.naver.com/user2/V2Join.nhn?m=agree&lang=ko_KR&cpno=" target="_blank">회원가입</a></td></tr></table>
+     <br><br><br>
+
+        <!--container-->
+        <div id=container>
+          <strong>지금 로그인 하는 사이트가 어디인지 알고 계신가요?<br></strong>
+          고객님의 소중한 정보를 위해 <span id="caption">네이버툴바</span>의<span id="caption">"안티피싱"</span>기능을 이용해보세요 </h5>
+         
+          <h4>네이버 툴바 <span id="endcontainer">다운로드</span></h4></div>
+<!--footer-->
+          <div id=footer>
+         <ul>
+           <li><a href="http://www.naver.com/rules/service.html" target="_blank" onclick="nclks('fot.agreement',this,event)">이용약관</a></li>
+           <li><strong><a href="http://www.naver.com/rules/privacy.html" target="_blank" onclick="nclks(nclks('fot.privacy',this,event)">개인정정보처리방침</strong></a></li>
+          <li>
+            <a href="http://www.naver.com/rules/disclaimer.html" onclick="nclks(nclks('fot.disclaimer',this,event)">책임의 한계와 법적고지</a>
+          </li>
+
+           <li><a href="https://help.naver.com/support/service/main.nhn?serviceNo=532" onclick="nclks(nclks('fot.help',this,event)" > 회원정보 고객센터</a></li>
+
+         </ul></div>
+         <div>
+         <address><span class="address"><span class="addr"> <a href="https://www.navercorp.com" target="_blank" target="_blank" onclick="nclks('log.naver',this,event)">NAVER</a></span>naverCopyright © <strong><a href="https://www.navercorp.com" target="_blank" target="_blank" onclick="nclks('log.naver',this,event)">NAVER Corp.</a></strong> All Rights Reserved.</span></address>
+           </div>
+  
